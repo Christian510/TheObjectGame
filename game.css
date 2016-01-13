@@ -1,8 +1,6 @@
+
 body{
     background-color: dimgrey;
-    padding-left: 1em;
-    padding-right: 1em;
-    
 }
 .row{
     align-content: center;
@@ -14,10 +12,11 @@ body{
 #Fighter{
     /*background-color: white;*/
     min-width: 708px;
+    padding-left: 10px;
     
 }
 img{
-    height: 530px;
+    height: 630px;
 }
 .progress{
     height: 60px;
@@ -38,6 +37,7 @@ img{
     
 }
 #fighter2{
+    padding-left: 10px;
        -moz-transform: scaleX(-1);
        -o-transform: scaleX(-1);
        -webkit-transform: scaleX(-1);
