@@ -7,8 +7,8 @@ function slap() {
 slap();
 
 function update() {
-   var x = document.getElementById("HEALTH");
-   x.innerText =   
+   var x = document.getElementById("Health");
+   x.innerText =  'test';
 }
 
 update();
