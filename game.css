@@ -1,5 +1,7 @@
 body{
     background-color: dimgrey;
+    padding-left: 1em;
+    padding-right: 1em;
     
 }
 .row{
@@ -10,7 +12,8 @@ body{
     /*padding-bottom: 5px;*/
 }
 #Fighter{
-    /*padding-left: 100px*/
+    /*background-color: white;*/
+    min-width: 708px;
     
 }
 img{
@@ -18,6 +21,7 @@ img{
 }
 .progress{
     height: 60px;
+    
 }
 .panel{
     text-align: center;
@@ -26,6 +30,18 @@ img{
     /*align-content: center;*/
     
 }
-#button{
+.button{
+    height: 30px;  
+}
+#fighter1{
+    background-color: transparent;
     
+}
+#fighter2{
+       -moz-transform: scaleX(-1);
+       -o-transform: scaleX(-1);
+       -webkit-transform: scaleX(-1);
+       transform: scaleX(-1);
+       filter: FlipH;
+       -ms-filter: "FlipH";
 }
