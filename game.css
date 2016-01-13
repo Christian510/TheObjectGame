@@ -4,5 +4,16 @@ body{
 }
 #Health{
     padding-top: 5px;
-    padding-bottom: 5px;
+    /*padding-bottom: 5px;*/
+}
+#Fighter{
+    /*padding-left: 100px*/
+    
+}
+.progress{
+    height: 60px;
+}
+.panel{
+    text-align: center;
+    
 }
