@@ -11,6 +11,11 @@ slap();
 function update() {
    var x = document.getElementById("Health");
    x.innerText =  'test';
+   if(health <= 0){
+		 document.getElementById("player-panel").classList.add("panel-danger")
+	}else{
+		 document.getElementById("player-panel").classList.remove("panel-danger")
+	}
 }
 
 update();
@@ -29,6 +34,20 @@ function kick() {
 }
 kick();
 
+var Obj = function(name, modifier, description){
+	this.name = name;
+	this.modifier = modifier;
+	this.description = description;
+	this.draw = function(){
+  
+	}
+}
+
+var items{
+	shield:new Item("Shield",0.3,"This is an awesome shield!"),
+	helmet:new Item("Helmet",0.3,"This is an awesome helemt!"),
+	armor:new Item("Armor",0.3,"This is awesome armor!"),
+}
 
 
 
