@@ -2,6 +2,9 @@ body{
     background-color: dimgrey;
     
 }
+.row{
+    align-content: center;
+}
 #Health{
     padding-top: 5px;
     /*padding-bottom: 5px;*/
@@ -10,10 +13,19 @@ body{
     /*padding-left: 100px*/
     
 }
+img{
+    height: 530px;
+}
 .progress{
     height: 60px;
 }
 .panel{
     text-align: center;
+}
+.btn-group{
+    /*align-content: center;*/
+    
+}
+#button{
     
 }
