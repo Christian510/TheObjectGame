@@ -1,24 +1,8 @@
 var health = 100;
 var name = "Player01";
 var hits = 0;
-function slap() {
-    for ( health = 100; health > 0; health--){
-    }
-}
 
-slap();
-
-function update() {
-   var x = document.getElementById("Health");
-   x.innerText =  'test';
-    if(health <= 0){
-		 document.getElementById("player-panel").classList.add("panel-danger")
-	}else{
-		 document.getElementById("player-panel").classList.remove("panel-danger")
-	}
-}
-
-update();
+function slap()
 
 function punch() {
     for (health = 100 - 5; health > 5; health = health - 5) { 
