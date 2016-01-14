@@ -2,15 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <title>The Slap Game</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="game.css">
 </head>
 
 <!--Fighter Game-->
 <body>
-<div class="panel panel-default">
-  <div class="panel-body" style="height 30px">
+<div id="panel-header" class="panel panel-default">
+  <div class="panel-heading">
        <h1>Fight!</h1>
        <h2 id="Name">Player Name:     </h2>
   </div>
@@ -20,14 +19,16 @@
 <section class="row">
     <div>
         <div class="progress col-md-6">
-       <span>Health:  <span id="Health"><div id="Health" class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></span></span>
+       <span>Health:  <span id="Health"><div id="Health" class="progress-bar" 
+            role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></span></span>
             60%
         </div>
     </div>
     <div>    
         </div>
         <div class="progress col-md-6">
-        <span>Hits:   <span id="Hits"><div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></span></span>
+        <span>Hits:   <span id="Hits"><div class="progress-bar" 
+             role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></span></span>
             60%
         </div>
         </div>
